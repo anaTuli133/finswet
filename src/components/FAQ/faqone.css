@@ -1,0 +1,45 @@
+.readstudies-section {
+  padding: 128px 0;
+  background: #fff;
+
+}
+
+
+.main-heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+
+.description {
+  font-size: 16px;
+  color: #4d4d4d;
+  line-height: 1.7;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.image-container {
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+.readstudies-bullets {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #4d4d4d;
+  font-size: 16px;
+  line-height: 1.8;
+  
+}
+
+.readstudies-bullets li {
+  margin-bottom: 8px;
+}
+
+.readstudies-bullets p{
+    margin-bottom: 50px;
+}

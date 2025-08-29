@@ -1,0 +1,81 @@
+.portfolio2-section {
+  padding: 60px 0;
+}
+
+/* portfolio2.css */
+
+
+.portfolio2-section .nav-pills .nav-link {
+  color: #000 !important;          
+  border: 2px solid rgb(72, 0, 255);        
+  border-radius: 6px;             
+  margin: 0 8px;                   
+  padding: 6px 16px;
+  background: transparent;       
+  transition: all 0.3s ease;
+}
+
+/* Hover state */
+.portfolio2-section .nav-pills .nav-link:hover {
+  background: rgb(72, 0, 255);             
+  color: #fff !important;         
+}
+
+/* Active state  */
+.portfolio2-section .nav-pills .nav-link.active {
+  background: rgb(72, 0, 255)!important;  
+  color: #fff !important;          
+  border-color: rgb(72, 0, 255);            
+}
+
+.portfolio2-card,
+.portfolio2-card .card {
+  border: none !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.portfolio2-card .card-body {
+  border-top: none !important;
+  padding: 20px;
+}
+
+.portfolio2-card .card-title {
+  margin-bottom: 8px;  
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.portfolio2-card .btn {
+  border: none !important;
+  box-shadow: none !important;   
+  background: transparent !important; 
+  color: #000; 
+}
+
+.portfolio2-card .btn:hover {
+  border: none !important;
+  box-shadow: none !important;  
+  background: transparent !important; 
+  color: #520a0a 
+}
+
+.portfolio2-card .btn:focus,
+.portfolio2-card .btn:active {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: aqua;
+}
+
+
+.portfolio2-card img {
+  border-radius: 8px 8px 0 0; 
+}
+
+
+.portfolio2-card:hover {
+  transform: translateY(-5px);
+}

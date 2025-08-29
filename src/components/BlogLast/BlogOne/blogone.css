@@ -1,0 +1,46 @@
+.readstudies-section {
+  padding: 80x 0;
+  background: #fff;
+
+}
+
+
+.main-heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+
+.description {
+  font-size: 16px;
+  color: #4d4d4d;
+  line-height: 1.7;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.image-container {
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+.read-more {
+  padding: 0;
+  font-weight: 500;
+  color: #243a68;
+  text-decoration: none;
+  margin: 0 auto;
+  display: block;
+    width:fit-content;
+}
+.text-left p{
+margin-top: 30px;
+}
+
+.read-more:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}

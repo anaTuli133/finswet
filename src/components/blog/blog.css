@@ -1,0 +1,65 @@
+.blog-section {
+  max-width: 1200px;
+  padding: 80px 0;
+}
+
+.blog-heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 64px;
+  font-size: 48px;
+  line-height: 64px;
+  font-size: 2rem;
+  color: #111827;
+}
+
+.blog-card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+  border-radius: 8px;
+  overflow: hidden; /* image & content একসাথে সুন্দর গোলাকার থাকবে */
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.blog-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.blog-date {
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.blog-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #111827;
+  line-height: 1.4;
+}
+
+.blog-desc {
+  font-size: 0.95rem;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  padding: 0;
+  font-weight: 500;
+  color: #111827;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}

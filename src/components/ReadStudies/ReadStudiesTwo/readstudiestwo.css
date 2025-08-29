@@ -1,0 +1,56 @@
+.readstudies-section {
+  padding: 128px 0;
+  background: #fff;
+}
+
+.small-heading {
+  color: #7a7a7a;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.main-heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  color: #4d4d4d;
+  margin-top: 40px;
+  max-width: 750px;
+}
+
+.image-container {
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.footer-info h6 {
+  font-size: 14px;
+  color: #7a7a7a;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.footer-info p {
+  font-size: 16px;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+
+.readstudies-bullets {
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #4d4d4d;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.readstudies-bullets li {
+  margin-bottom: 8px;
+}

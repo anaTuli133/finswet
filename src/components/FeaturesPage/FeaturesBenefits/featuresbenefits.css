@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.about-benefits-section {
+  background: #fff;
+  padding-top: 128px;
+  padding-bottom: 10px;
+  
+  
+}
+
+
+
+
+.benefits2 .box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.benefits2 .box .box-heading h1{
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  line-height: 56px;
+  font-weight: 600;
+  color: #282938;
+
+}
+
+.benefits2 .box .box-heading p{
+  margin: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #282938;
+}
+.benefits2 .box .logo-fix{
+  gap: 30px;
+  display: flex;
+  align-items: center;    
+  flex-wrap: wrap;
+}
+.benefits2 .box .logo-fix img {
+  max-height: 40px;
+  object-fit: contain;
+}

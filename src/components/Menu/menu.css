@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.menu_bg {
+  background-color: #1C1E53;
+  
+}
+
+.menu_bg .ami a {
+  color: #fff !important;
+  font-family: "Poppins", sans-serif;
+  padding: 0 20px !important;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.menu_bg .ami a:hover {
+  color: #FCD980 !important;
+}
+
+.menu_bg .con a {
+  border: 2px solid #fff;
+  padding: 15px 20px !important;
+  border-radius: 30px;
+  color: #fff !important;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.menu_bg .con a:hover {
+  background-color: #FCD980 !important;
+  color: #000000 !important;
+}
+/* responsive css */
+/* Small devices: 576px - 767px */
+@media (min-width: 576px) and (max-width: 767px) {
+  .menu_bg .ami a {
+    padding: 0 10px !important;  
+    font-size: 14px;
+  }
+
+  .menu_bg .con a {
+    padding: 10px 15px !important; 
+    font-size: 14px;
+  }
+
+  .menu_bg .navbar-brand img {
+    width: 120px;  
+    height: auto;
+  }
+
+  .menu_bg {
+    padding: 10px 0;
+  }
+}
+
+/* Extra small devices: <576px */
+@media (max-width: 575px) {
+  .menu_bg .ami a {
+    padding: 0 5px !important;
+    font-size: 12px;
+  }
+
+  .menu_bg .con a {
+    padding: 8px 12px !important;
+    font-size: 12px;
+  }
+
+  .menu_bg .navbar-brand img {
+    width: 100px; 
+  }
+
+  .menu_bg {
+    padding: 8px 0;
+  }
+
+  .menu_bg .navbar-collapse {
+    text-align: center;
+  }
+
+  .menu_bg .ami {
+    flex-direction: column; 
+    gap: 10px;
+  }
+
+  .menu_bg .con {
+    margin-top: 10px;
+    text-align: center;
+  }
+}
+
+/* Small devices: 576px - 767px */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Navbar background padding */
+  .menu_bg {
+    padding: 10px 15px;
+  }
+
+  /* Logo smaller */
+  .menu_bg .navbar-brand img {
+    width: 120px;
+    height: auto;
+  }
+
+  /* Navbar links */
+  .menu_bg .ami a {
+    padding: 0 10px !important;
+    font-size: 14px;
+  }
+
+  /* Contact button */
+  .menu_bg .con a {
+    padding: 10px 15px !important;
+    font-size: 14px;
+  }
+
+  /* Navbar toggle (hamburger) right corner */
+  .menu_bg .navbar-toggler {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    border: none;
+    outline: none;
+    z-index: 1050;
+  }
+
+  /* Hamburger bars color */
+  .menu_bg .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+  /* Mobile expanded menu */
+  .menu_bg .navbar-collapse {
+    background-color: #1C1E53;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .menu_bg .ami {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .menu_bg .con {
+    margin-top: 15px;
+    text-align: center;
+  }
+}
+
+
+

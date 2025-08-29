@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.custom-text{
+    margin-top: 128px;
+    margin-bottom: 64px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #282938;
+    font-size: 24px;
+    line-height: 64px;
+}
+.text-end{
+    margin-top: 128px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #282938;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* card1 */
+
+.custom-card{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.custom-card::after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 56%;
+    background-color: #1c1e538f;
+    left:0;
+    top: 0;
+    transition: width 0.5s ease; 
+}
+
+.custom-card:hover::after{
+    width: 100%;
+}
+
+.custom-card-inner{
+    position: absolute;
+    width: 40%;
+    left: 0;
+    bottom: 140px;
+    z-index: 2;
+    
+    opacity: 0;
+    transform: translateX(0);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.custom-card-inner h2{
+    font-size: 24px;
+    color: white;
+    margin-left: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+.custom-card-inner p{
+    color: rgba(255, 255, 255, 0.856);
+    margin-left: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+.custom-card-inner a{
+    color: white;
+    margin-left: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.custom-card:hover .custom-card-inner{
+    opacity: 1;
+    transform: translateX(20px);
+}
+
+
+
+
+/* card2 */
+
+.custom-card2{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.custom-card2::after{
+    position: absolute;
+    content: '';
+    height: 50%;
+    width: 100%;
+    background-color: #1c1e538f;
+    left:0;
+    top:0;
+    transition: height 0.5s ease;
+    z-index: 1;
+}
+
+.custom-card2:hover::after{
+    height: 100%;
+}
+
+.custom-card2-inner{
+    position: absolute;
+    width: 80%;
+    left: 20px;
+    bottom: 30px;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: translateY(20px);
+}  
+
+.custom-card2:hover .custom-card2-inner {
+    opacity: 1;         
+    transform: translateY(0);
+}
+
+
+.custom-card2-inner h2{
+    font-size: 24px;
+    color: white;
+    margin-left: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.custom-card2-inner a{
+    color: #FCD980 !important;
+    margin-left: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* card3 */
+
+.custom-card3{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.custom-card3::after{
+    position: absolute;
+    content: '';
+    height: 50%;
+    width: 100%;
+    background-color: #1c1e538f;
+    left:0;
+    bottom:0;
+    transition: height 0.5s ease;
+    z-index: 1;
+}
+
+.custom-card3:hover::after{
+    height: 100%;
+}
+
+.project-row {
+  margin-bottom: 128px; 
+}

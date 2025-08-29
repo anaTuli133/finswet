@@ -1,0 +1,29 @@
+.portfolio3-section {
+  background: #f8f9fa;
+  padding: 60px 0;
+}
+
+.portfolio3-title {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.portfolio3-desc {
+  color: #6c757d;
+  max-width: 500px;
+  margin: 0 auto 30px;
+}
+.custom-btn {
+  background-color: #ffcc00e0;   
+  color: #fff;                
+  border: none;               
+  border-radius: 30px;        
+  transition: 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #2f77c5ad;  
+  color: #090000;               
+}
+
+

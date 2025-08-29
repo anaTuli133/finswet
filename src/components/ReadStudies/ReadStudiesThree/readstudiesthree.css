@@ -1,0 +1,31 @@
+.readstudies-keywords {
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.keyword-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: blue;
+  margin: 0;
+  justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.keyword-list {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.keyword-list li {
+  font-size: 15px;
+  color: #444;
+}

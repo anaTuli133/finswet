@@ -1,0 +1,158 @@
+.pricing-section {
+  padding: 128px 0;
+}
+
+
+
+.pricing-header {
+  padding-bottom: 64px;
+}
+
+.pricing-title {
+  color: #282938;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.pricing-subtitle {
+  width: 570px;
+  max-width: 100%;
+  display: inline-block;
+  font-weight: 400;
+  color: #636363;
+}
+
+/* Card Styling */
+.card-main {
+  height: 645px;
+  width: 100%;
+  background-color: #f4f6fc;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: 0.8s;
+  margin: 0 auto 30px;
+}
+
+.card-main:hover {
+  background-color: #1c1e53;
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+
+.card-main.active {
+   background-color: #1C1E53;
+  
+}
+
+.card-main.active .text-color,
+.card-main.active .list-text {
+  color: #fff !important;
+}
+.card-main.active .card-btn {
+  background: #FCD980;
+  color: #000 !important;
+}
+.card-main.active:hover {
+  transform: scale(1.1); /* zoom effect only */
+
+     background-color: #2A2E8A;
+  color: #fff;
+}
+
+
+.card-inner {
+  height: 1000px;
+  width: 1000px;
+  background-color: rgba(255, 255, 255, 0.068);
+  position: absolute;
+  top: -490px;
+  left: 50%;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.card-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 64px;
+  padding-left: 48px;
+}
+
+.price {
+  font-size: 38px;
+  padding-bottom: 20px;
+  font-weight: 600;
+  color: #282938;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.design-text {
+  font-size: 16px;
+  color: #2405f2;
+  transition: 0.3s;
+}
+
+.design-text.yellow {
+  color: #fcd980;
+}
+
+.package-name {
+  color: #282938;
+  font-size: 24px;
+  padding-bottom: 8px;
+}
+
+.package-desc {
+  color: #282938;
+  width: 270px;
+  padding-bottom: 30px;
+  font-weight: 500;
+}
+
+.list-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #636363;
+  list-style: none;
+  padding: 0;
+}
+
+.list-text li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Hover Effects */
+.card-main:hover .price,
+.card-main:hover .package-name,
+.card-main:hover .package-desc,
+.card-main:hover .list-text {
+  color: white !important;
+  transition: 0.8s;
+}
+
+.card-btn-area {
+  display: flex;
+  justify-content: center;
+  padding-top: 530px;
+}
+
+.card-btn {
+  background-color: #282938;
+  color: white !important;
+  padding: 16px 48px;
+  border-radius: 41px;
+  transition: 0.8s;
+}
+
+.card-main:hover .card-btn {
+  background-color: #fcd980;
+  color: black !important;
+}

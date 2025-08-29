@@ -1,0 +1,140 @@
+section {
+  width: 100%;
+  padding: 80px 0;
+}
+
+
+
+
+.left-side {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* max-height: 600px; */
+}
+
+.left-side-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  
+  display: block;
+  object-position: center;  
+}
+
+.left-side::after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;  
+  background-color: rgba(28, 30, 83, 0.6);
+  left: 0;
+  top: 0;
+  transition: background-color 0.5s ease;
+  z-index: 1;
+}
+
+.left-side:hover::after {
+  background-color: rgba(28, 30, 83, 0.8);
+}
+
+.left-side-inner {
+  position: absolute;
+  width: 60%;
+  left: 40px;
+  bottom: 40px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  z-index: 2;
+  color: #fff;
+  max-width: 60%;
+}
+
+.left-side-inner h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 54px;
+  line-height: 74px;
+}
+.left-side-inner p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 28px;
+}
+.left-side:hover .left-side-inner {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Right side inquiry form */
+.inquiry-container {
+  background: #1C1E53;
+  color: white;
+  height: 100%;  
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inquiry-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.inquiry-subtitle {
+  font-size: 16px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.inquiry-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inquiry-input {
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.3);
+  background: transparent;
+  color: white;
+  outline: none;
+}
+
+.inquiry-input::placeholder {
+  color: rgba(255, 255, 255, 0.753);
+  
+}
+
+.inquiry-button {
+   background: #fcd980;
+  color: #1c1e53;
+  font-weight: 600;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.inquiry-button:hover {
+  background: #ffffff;
+  color: #1c1e53;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.inquiry-footer {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  justify-content: center;
+}
